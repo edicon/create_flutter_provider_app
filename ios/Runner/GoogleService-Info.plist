@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>741585694427-tuncracp6j9kn2tbuqh3sgg6rlp5276a.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.741585694427-tuncracp6j9kn2tbuqh3sgg6rlp5276a</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>741585694427-n5a5bmvuhit4q19p8nu629chs8n7n1dm.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCo56Gbc9HNuPJ_Cg0LZZ7T8YwVXz3CQfQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>741585694427</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.edicon.flutter.dev-app</string>
+	<key>PROJECT_ID</key>
+	<string>edicon-dev</string>
+	<key>STORAGE_BUCKET</key>
+	<string>edicon-dev.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:741585694427:ios:14a13b2cfb664f779ba6fe</string>
+	<key>DATABASE_URL</key>
+	<string>https://edicon-dev.firebaseio.com</string>
+</dict>
+</plist>
