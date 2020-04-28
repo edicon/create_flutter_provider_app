@@ -1,34 +1,79 @@
 {
   "project_info": {
-    "project_number": "747799024060",
-    "firebase_url": "https://note-app-dev.firebaseio.com",
-    "project_id": "note-app-dev",
-    "storage_bucket": "note-app-dev.appspot.com"
+    "project_number": "741585694427",
+    "firebase_url": "https://edicon-dev.firebaseio.com",
+    "project_id": "edicon-dev",
+    "storage_bucket": "edicon-dev.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:747799024060:android:12a44c09b32bf75c3d5bb9",
+        "mobilesdk_app_id": "1:741585694427:android:41fe0edb16b70fa29ba6fe",
         "android_client_info": {
-          "package_name": "com.example.create_flutter_provider_app.dev"
+          "package_name": "com.edicon.flutter.demo_dev_app"
         }
       },
       "oauth_client": [
         {
-          "client_id": "747799024060-0i7261mp5tipeb817cpcr7s0cn29ck0a.apps.googleusercontent.com",
+          "client_id": "741585694427-n5a5bmvuhit4q19p8nu629chs8n7n1dm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.edicon.flutter.demo_dev_app",
+            "certificate_hash": "979cb234e23aed8a017af9a59d774de8226e10d2"
+          }
+        },
+        {
+          "client_id": "741585694427-eerr58s99tnbp74rbckssa9lajmfaqr4.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyA_mDikkCUSSDXiwFKly7GlC25LJEJHsFA"
+          "current_key": "AIzaSyCBpEg0yBSPnwiX43kWwUa-opPbJ4lqwn8"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "747799024060-0i7261mp5tipeb817cpcr7s0cn29ck0a.apps.googleusercontent.com",
+              "client_id": "741585694427-eerr58s99tnbp74rbckssa9lajmfaqr4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:741585694427:android:d37fe83d8c4298f09ba6fe",
+        "android_client_info": {
+          "package_name": "com.edicon.flutter.dev_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "741585694427-9e2r0h7fpbodohctr5rfcqqoim036u0i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.edicon.flutter.dev_app",
+            "certificate_hash": "979cb234e23aed8a017af9a59d774de8226e10d2"
+          }
+        },
+        {
+          "client_id": "741585694427-eerr58s99tnbp74rbckssa9lajmfaqr4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBpEg0yBSPnwiX43kWwUa-opPbJ4lqwn8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "741585694427-eerr58s99tnbp74rbckssa9lajmfaqr4.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
