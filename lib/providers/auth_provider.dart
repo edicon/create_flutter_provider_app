@@ -73,7 +73,7 @@ class AuthProvider extends ChangeNotifier {
       _status = Status.Registering;
       notifyListeners();
       final AuthResult result = await _auth.createUserWithEmailAndPassword(
-          email: email, password: password);
+          email: email.trim(), password: password.trim());
 
       return _userFromFirebase(result.user);
     } catch (e) {
@@ -89,7 +89,7 @@ class AuthProvider extends ChangeNotifier {
     try {
       _status = Status.Authenticating;
       notifyListeners();
-      await _auth.signInWithEmailAndPassword(email: email, password: password);
+      await _auth.signInWithEmailAndPassword(email: email.trim(), password: password.trim());
       return true;
     } catch (e) {
       print("Error on the sign in = " +e.toString());
