@@ -8,7 +8,7 @@ import 'package:noteapp/providers/theme_provider.dart';
 import 'package:noteapp/services/firestore_database.dart';
 import 'package:provider/provider.dart';
 
-import 'package:firebase/firebase.dart' as fb;
+// import 'package:firebase/firebase.dart' as fb;
 
 void main() {
   // fb.initializeApp(
