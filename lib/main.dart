@@ -10,8 +10,9 @@ import 'package:provider/provider.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
-  SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp])
-      .then((_) async {
+  // TODO: For Web
+  // SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp])
+  //     .then((_) async {
     runApp(
       /*
       * MultiProvider for top services that do not depends on any runtime values
@@ -35,5 +36,5 @@ void main() {
         ),
       ),
     );
-  });
+  // });
 }
