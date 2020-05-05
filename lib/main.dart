@@ -8,19 +8,7 @@ import 'package:noteapp/providers/theme_provider.dart';
 import 'package:noteapp/services/firestore_database.dart';
 import 'package:provider/provider.dart';
 
-// import 'package:firebase/firebase.dart' as fb;
-
 void main() {
-  // fb.initializeApp(
-  //   apiKey: "AIzaSyA7BRas0BpsGQPpCMZiNnSXHvjbE5Tn5_s",
-  //   authDomain: "edicon-dev.firebaseapp.com",
-  //   databaseURL: "https://edicon-dev.firebaseio.com",
-  //   projectId: "edicon-dev",
-  //   storageBucket: "edicon-dev.appspot.com",
-  //   messagingSenderId: "741585694427",
-  //   appId: "1:741585694427:web:5fe94dba269889099ba6fe",
-  //   measurementId: "G-HQGHXK2LQS"
-  // );
   WidgetsFlutterBinding.ensureInitialized();
   SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp])
       .then((_) async {

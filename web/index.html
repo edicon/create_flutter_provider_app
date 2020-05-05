@@ -20,7 +20,7 @@
 <body>
   <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
-       https://developers.google.com/web/fundamentals/primers/service-workers -->
+       https://developers.google.com/web/fundamentals/primers/service-workers
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function () {
@@ -28,29 +28,28 @@
       });
     }
   </script>
+  -->
 
   <!-- The core Firebase JS SDK is always required and must be listed first -->
-  <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-auth.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-firestore.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-analytics.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-analytics.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-firestore.js"></script>
+  <script defer src="./init-firebase.js"></script>
 
+  <!--
   <script>
-    // Your web app's Firebase configuration
+    // Move to init-firebase.js
     var firebaseConfig = {
-      apiKey: "AIzaSyA7BRas0BpsGQPpCMZiNnSXHvjbE5Tn5_s",
-      authDomain: "edicon-dev.firebaseapp.com",
-      databaseURL: "https://edicon-dev.firebaseio.com",
-      projectId: "edicon-dev",
-      storageBucket: "edicon-dev.appspot.com",
-      messagingSenderId: "741585694427",
-      appId: "1:741585694427:web:5fe94dba269889099ba6fe",
-      measurementId: "G-HQGHXK2LQS"
+      ...
     };
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
     firebase.analytics();
   </script>
-  <script src="main.dart.js"></script>
+  <script defer src="./config-firestore.js"></script>
+  -->
+
+  <script defer src="main.dart.js" type="application/javascript"></script
 </body>
 </html>
